@@ -14,7 +14,7 @@ The above attribute will put the center of the slide 500px to the right of the c
 
 ### data-y
 
-Much like <code>data-x</code>, <code>data-y</code> is the offset along he Y axis for the current slide's center.
+Much like <code>data-x</code>, <code>data-y</code> is the offset along the Y axis for the current slide's center.
 
 ### data-z
 
