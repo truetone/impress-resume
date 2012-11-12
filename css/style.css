@@ -25,7 +25,27 @@ a:visited {
 }
 .step {
 	height: 500px;
+	padding: 1.5em;
 	width: 700px;
+	-moz-transition: background .5s ease-out;
+	-o-transition: background .5s ease-out;
+	-webkit-transition: background .5s ease-out;
+	transition: backround .5s ease-out;
+	z-index: 0;
+}
+.step.present {
+	background: #ddd;
+	z-index: 1;
+}
+#center {
+	background: url(images/beard-eyes-closed.png) 50% 50% no-repeat #000;
+	color: #fff;
+}
+#center p {
+	font-size: 1.5em;
+}
+#summary {
+	font-size: 1.8em;
 }
 .accessible {
 	height: 1px !important;
