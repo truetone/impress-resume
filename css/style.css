@@ -1,0 +1,57 @@
+body {
+	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+	font-size: 1.1em;
+}
+h1,h2,h3,h4,h5 {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+h1 {
+	font-size: 4.5em;
+}
+h2 {
+	font-size: 2em;
+}
+h2, h3 {
+	margin-bottom: .5em;
+}
+h3 {
+	font-size: 1.5em;
+}
+a {
+	color: #0928a8;
+}
+a:visited {
+	color: #0928a8;
+}
+.step {
+	height: 500px;
+	padding: 1.5em;
+	width: 700px;
+	-moz-transition: background .5s ease-out;
+	-o-transition: background .5s ease-out;
+	-webkit-transition: background .5s ease-out;
+	transition: backround .5s ease-out;
+	z-index: 0;
+}
+.step.present {
+	background: #ddd;
+	z-index: 1;
+}
+#center {
+	background: url(images/beard-eyes-closed.png) 50% 50% no-repeat #000;
+	color: #fff;
+}
+#center p {
+	font-size: 1.5em;
+}
+#summary {
+	font-size: 1.8em;
+}
+.accessible {
+	height: 1px !important;
+	left: -9999px !important;
+	overflow: hidden !important;
+	position: absolute !important;
+	top: -9999px !important;
+	width: 1px !important;
+}

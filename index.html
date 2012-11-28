@@ -1,89 +1,214 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Impress-resume by truetone</title>
+	<head>
+		<title>Tony Thomas' Resume Formatted With Impress.js</title>
+		<link href="css/normalize.css" rel="stylesheet" type="text/css">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+		
+		<script type="text/javascript">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Impress-resume</h1>
-        <p>Resume using impress.js</p>
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-619508-4']);
+		_gaq.push(['_trackPageview']);
 
-        <p class="view"><a href="https://github.com/truetone/impress-resume">View the Project on GitHub <small>truetone/impress-resume</small></a></p>
+  		(function() {
+   		 	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  		})();
 
+		</script>
+	</head>
+	<body>
+		<div id="impress" class="impress-not-supported">
+			<div class="accessible fallback-message">
+			        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+					<p>For the best experience please use the latest <b>Chrome</b> or <b>Safari</b> browser, or <b>Firefox</b>.</p>
+			</div>
+			
+			<!-- slide 1 -->
+			<div id="center" class="step slide" data-x="0" data-y="0" data-z="0">
+				<h1>Tony Thomas&rsquo; R&eacute;sum&eacute;</h1>
+				<p>Hit the space bar or use the arrow keys to change slides.</p>
+			</div>
 
-        <ul>
-          <li><a href="https://github.com/truetone/impress-resume/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/truetone/impress-resume/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/truetone/impress-resume">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>Tony Thomas’ Résumé</h1>
+			<!-- slide 2 -->
+			<div id="summary" class="step slide" data-x="0" data-y="0" data-z="1500">
+				<h2>Qualifications Summary</h2>
+				<ul class="resume-list">
+					<li>11 years experience in web design and development</li>
+					<li>11 years experience in database administration</li>
+					<li>Over 7 years project management experience working with open-source solutions to save money for small businesses and research studies</li>
+					<li>Over 3 years multimedia publishing</li>
+					<li>Over 4 years research data management experience</li>
+				</ul>
+			</div>
 
-<p>My Résumé formatted using <a href="https://github.com/bartaz/impress.js">impress.js</a>.</p>
+			<!-- slide 3 -->
+			<div class="step slide" data-x="0" data-y="-600" data-rotate-x="45" data-z="1500">
+				<h2>Professional Experience</h2>
+				<h3>University of Minnesota</h3>
+				<dl>
+					<dt>Web Developer</dt>
+					<dd><a href="http://sua.umn.edu">Student Unions &amp; Activities</a></dd>
+					<dd>June 2010 - Present</dd>
+					<dd>
+						<ul>
+							<li>Front end development for Student Unions touch screen directories in Coffman  Memorial Union and St. Paul Student Center using <acronym title="eXtensible Hypterext Markup Language">XHTML</acronym>, <acronym title="Hypertext Markup Language">HTML5</acronym>, <acronym title="Cascading Style Sheet">CSS</acronym> and JavaScript</li>
+							<li>Coded mobile websites for University of Minnesota <a href="http://springjam.umn.edu">Spring Jam</a> and <a href="http://homecoming.umn.edu">Homecoming</a>.</li>
+							<li>Planned &amp; helped build new events calendar using PHP, MySQL &amp; the Google Calendar API</li>
+							<li>Coded updated website design for Student Unions &amp; Activities website</li>
+							<li>Coded <acronym title="Hypertext Pre-Processor">PHP</acronym> application to use the University of Minnesota&rsquo;s Google Search Appliance to search Student Unions &amp; Activities domains</li>
+							<li>Student Unions &amp; Activities web content updates</li>
+						</ul>
+				</dl>
+			</div>
 
-<h2>Impress.js data Attribute Options</h2>
+			<!-- slide 4 -->
+			<div class="step slide" data-x="800" data-y="0" data-rotate-y="45" data-z="1500">
+				<h2>Professional Experience (continued)</h2>
+				<h3>University of Minnesota</h3>
+				<dl>
+					<dt>Data Manager</dt>
+					<dd><a href="http://cvp.umn.edu">Clinical Virology Programs</a></dd>
+					<dd>May 2005 - June 2010</dd>
+					<dd>
+						<ul class="resume-list">
+							<li>Developed the Lab and Clinical Information System using the <a href="http://cakephp.org">CakePHP framework</a></li>
+							<li>Coded a Wordpress theme for Clinical Virology Programs to meet University of Minnesota web standards</li>
+							<li>Developed databases in <a href="http://mysql.com">MySQL</a> and <a href="http://filemaker.com">FileMaker Pro</a> to keep track of research study information</li>
+							<li>Liaison between Clinical Virology Programs staff and Frontier Science Data Center for AIDS Clinical Trials Group (ACTG) research studies</li>
+							<li>Responsible quality of data in University of Minnesota ACTG site and sub-sites at Hennepin County Medical Center, University of Iowa and University of Nebraska</li>
+						</ul>
+					</dd>
+				</dl>
+			</div>
 
-<h3>data-x</h3>
+			<!-- slide 5 -->
+			<div class="step slide" data-x="0" data-y="600" data-rotate-x="-45" data-z="1500">
+				<h2>Professional Experience (continued)</h2>
+				<h3>Independent Contractor, Minneapolis, MN</h3>
+				<dl>
+					<dt>Freelance Web Developer, January 2001 to June 2010</dt>
+					<dd>
+						<ul class="resume-list">
+							<li>Design, update and maintain websites for small businesses.</li>
+							<li>Provide webhosting and email services on my own dedicated virtual server for clients.</li>
+							<li>Server administration using a combination of the Plesk web-based control panel and the Linux command line.</li>
+						</ul>
+					</dd>
+				</dl>
+			</div>
 
-<p>Number of pixels for the offset along the X axis for the current slide's center. For example:</p>
+			<!-- slide 6 -->
+			<div class="step slide" data-x="-800" data-y="0" data-rotate-y="-45" data-z="1500">
+				<h2>Skill Set</h2>
+				<dl>
+					<dt>Languages</dt>
+					<dd>AppleScript</dd>
+					<dd><acronym title="Cascading Style Sheet">CSS</acronym></dd>
+					<dd>JavaScript</dd>
+					<dd><acronym title="Hypertext Pre-Processor">PHP</acronym></dd>
+					<dd>Python</dd>
+					<dd><acronym title="Structured Query Language">SQL</acronym></dd>
+				</dl>
+			</div>
 
-<pre><code>&lt;div class="step" data-x="500"&gt;Slide Text&lt;/div&gt;
-</code></pre>
+			<!-- slide 7 -->
+			<div class="step slide" data-x="0" data-y="0" data-rotate-y="-180" data-z="-1500">
+				<h2>Skill Set (continued)</h2>
+				<dl>
+					<dt>Web Development Frameworks</dt>
+					<dd>
+						<dl>
+							<dt>CSS Frameworks</dt>
+							<dd>960 Grid System</dd>
+							<dd>Blueprint CSS Framework</dd>
+							<dd>ez-css</dd>
+						</dl>
+					</dd>
+					<dd><acronym title="Asynchronous JavaScript and XML">AJAX</acronym></dd>
+					<dd>CakePHP</dd>
+					<dd>Django</dd>
+					<dd>Flask</dd>
+					<dd>JQuery</dd>
+					<dd><acronym title="Really Simple Syndication">RSS</acronym></dd>
+					<dd><acronym title="eXtensible Markup Language">XML</acronym></dd>
+					<dd><acronym title="eXtenisble Hypertext Markup Language">XHTML</acronym></dd>
+					<dd>Zend</dd>
+				</dl>
+			</div>
 
-<p>The above attribute will put the center of the slide 500px to the right of the center of the "canvas."</p>
+			<!-- slide 8 -->
+			<div class="step slide" data-x="0" data-y="-600" data-z="-1500" data-rotate-y="-180" data-rotate-x="-45">
+				<h2>Skill Set (continued)</h2>
+				<dl>
+					<dt>Design &amp; Development Tools</dt>
+					<dd>Dreamweaver</dd>
+					<dd>Fireworks</dd>
+					<dd>Git</dd>
+					<dd>Illustrator</dd>
+					<dd>Komodo Edit</dd>
+					<dd>Mercurial</dd>
+					<dd>Photoshop</dd>
+					<dd>Subversion</dd>
+					<dd>TextMate</dd>
+					<dd>Transmit</dd>
+					<dd>Vim</dd>
+				</dl>
+			</div>
 
-<h3>data-y</h3>
+			<!-- slide 9 -->
+			<div class="step slide" data-x="-800" data-y="0" data-z="-1500" data-rotate-y="-135">
+				<h2>Skill Set (continued)</h2>
+				<dl>
+					<dt>Databases</dt>
+					<dd>Access</dd>
+					<dd>Filemaker Pro</dd>
+					<dd>MySQL</dd>
+					<dt>Other</dt>
+					<dd>Pro Tools</dd>
+				</dl>
+			</div>
 
-<p>Much like <code>data-x</code>, <code>data-y</code> is the offset along the Y axis for the current slide's center.</p>
+			<!-- slide 10 -->
+			<div class="step slide" data-x="0" data-y="600" data-z="-1500" data-rotate-x="45" data-rotate-y="-180">
+				<h2>Presentations</h2>
+				<h3><a href="http://www.youtube.com/watch?v=rCqV3oyViVw&amp;feature=youtu.be">Collaborative Web Development Using Github</a> with Ken Loomis &amp; Ben Demaree</h3>
+				<p>A presentation on Student Unions &amp; Activities' Git Workflow.</p>
+				<h3><a href="http://www.slideshare.net/truetone/sua-mobile-development">Mobile Web Development</a></h3>
+				<p>A presentation on the landscape of mobile web development (September 2011) and two mobile web projects I did for Student Unions &amp; Activities.</p>
+				<h3><a href="http://www.slideshare.net/kmloomis/minne-webcon-2011v5">Project Tools in Web Development: A Case Study</a> with Ken Loomis &amp; Ethan Poole</h3>
+				<p>A presentation on the tools used by Student Unions &amp; Activities during the redesign of the Student Unions &amp; Activities website.</p>
+			</div>
 
-<h3>data-z</h3>
-
-<p>Sets the slide position along the Z axis.</p>
-
-<pre><code>&lt;div class="step" data-z="3000"&gt;Slide Text&lt;/div&gt;
-</code></pre>
-
-<p>The slide above will appear to be 3000 pixels away.</p>
-
-<h3>data-scale</h3>
-
-<p>Sets the scale of the slide.</p>
-
-<pre><code>&lt;div class="step" data-scale="4"&gt;Slide Text&lt;/div&gt;
-</code></pre>
-
-<p>The slide in the example above will be 4 times larger than the others.</p>
-
-<h3>data-rotate</h3>
-
-<p>Sets the rotation in degress for the slide.</p>
-
-<pre><code>&lt;div class="step" data-rotate="90"&gt;Slide Text&lt;/div&gt;
-</code></pre>
-
-<p>The slide above will be rotated to 90 degrees.</p>
-
-<h3>data-rotate-x, data-rotate-y and data-rotate-z</h3>
-
-<p>These attributes control the rotation along the X, Y and Z axes. <code>data-rotate-z</code> is an alias for <code>data-rotate</code>.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/truetone">truetone</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+			<!-- slide 11 -->
+			<div class="step slide" data-x="800" data-y="0" data-z="-1500" data-rotate-y="-225">
+				<h2>Education &amp; Training</h2>
+				<dl>
+					<dt>University of Minnesota, Minneapolis, MN</dt>
+					<dd>
+						<dl>
+							<dt>B.A. University of Minnesota December, 1996</dt>
+							<dd>
+								<dl>
+									<dt>Major</dt>
+									<dd>English Literature</dd>
+									<dt>GPA</dt>
+									<dd>3.192</dd>
+								</dl>
+							</dd>
+						</dl>
+					</dd>
+					<dt>Minneapolis Community and Technical College, Minneapolis, MN</dt>
+					<dd>JavaScript</dd>
+					<dd>Principles of Programming</dd>
+				</dl>
+			</div>
+		</div>
+	<script type="text/javascript" src="js/impress.js"></script>	
+	<script>impress().init();</script>
+	</body>
 </html>
